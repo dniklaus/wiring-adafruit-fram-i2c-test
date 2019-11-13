@@ -46,7 +46,7 @@ public:
 
 //-----------------------------------------------------------------------------
 
-const unsigned long Indicator::c_blinkTimeMillis = 500;
+const unsigned long Indicator::c_blinkTimeMillis = 200;
 
 Indicator::Indicator(const char* name, const char* description)
 : m_adapter(0)
